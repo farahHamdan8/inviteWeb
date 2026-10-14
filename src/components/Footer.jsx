@@ -9,19 +9,29 @@ export default function Footer() {
       <Reveal>
         <div className="flex flex-wrap gap-4 justify-center items-center mb-10" >
           <div className="plate -rotate-[1.2deg] overflow-hidden w-24 rounded-full h-24">
-            <img src="public/assets/img1.jpg" alt="image" className="mx-auto w-24 rounded-full h-24" />
+            <img src="/assets/img1.jpg" alt="image"
+             className="mx-auto w-24 rounded-full h-24"
+             loading="lazy" />
           </div>
           <div className="plate -rotate-[1.2deg] overflow-hidden w-24 rounded-full h-24">
-            <img src="public/assets/img2.jpg" alt="image" className="mx-auto w-24 rounded-full h-24" />
+            <img src="/assets/img2.jpg" alt="image" 
+            className="mx-auto w-24 rounded-full h-24"
+            loading="lazy" />
           </div>
           <div className="plate -rotate-[1.2deg] overflow-hidden w-24 rounded-full h-24">
-            <img src="public/assets/img3.jpg" alt="image" className="mx-auto w-24 rounded-full h-24" />
+            <img src="/assets/img3.jpg" alt="image" 
+            className="mx-auto w-24 rounded-full h-24"
+            loading="lazy" />
           </div>
           <div className="plate -rotate-[1.2deg] overflow-hidden w-24 rounded-full h-24">
-            <img src="public/assets/img4.jpg" alt="image" className="mx-auto w-24 rounded-full h-24" />
+            <img src="/assets/img4.jpg" alt="image"
+             className="mx-auto w-24 rounded-full h-24" 
+             loading="lazy"/>
           </div>
           <div className="plate -rotate-[1.2deg] overflow-hidden w-24 rounded-full h-24">
-            <img src="public/assets/img5.jpg" alt="image" className="mx-auto w-24 rounded-full h-24" />
+            <img src="/assets/img5.jpg" alt="image"
+             className="mx-auto w-24 rounded-full h-24"
+             loading="lazy" />
           </div>
          </div>
       </Reveal>
