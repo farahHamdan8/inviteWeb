@@ -32,7 +32,7 @@ timeZone: 'Asia/Gaza',
 // Audio: drop a royalty-free track at /public/audio/ambient.mp3.
 // If the file is missing, a soft synthesised piano loop is used instead.
 export const audio = {
-  src: '/audio/ambient.mp3',
+  src: '/audio/ambient.m4a',
   volume: 0.45,
   // Start the music when the guest breaks the wax seal (a user gesture, so
   // browsers allow it). Set to false to keep it strictly opt-in.
